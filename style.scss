@@ -1,0 +1,52 @@
+$pine: #3e8fb0;
+$foam: #9ccfd8;
+
+window.Bar {
+  background: transparent;
+  font-weight: bold;
+
+  > centerbox {
+    background: rgba(255, 255, 255, 0.234);
+    border-radius: 8px;
+    margin: 16px 16px 0px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.243);
+  }
+
+  button {
+    border-radius: 8px;
+    margin: 2px;
+  }
+
+  .Workspaces {
+    button {
+      background: rgba(255, 255, 255, 0.278);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.243);
+    }
+    .focused {
+      color: white;
+    }
+  }
+
+  .AudioSlider {
+    * {
+      all: unset;
+    }
+    icon {
+      margin-right: 0.6em;
+    }
+    & {
+      margin: 1em;
+    }
+    trough {
+      background-color: $pine;
+      border-radius: 8px;
+    }
+    highlight {
+      background-color: $foam;
+      min-height: 0.8em;
+      border-radius: 8px;
+    }
+  }
+}
