@@ -1,4 +1,4 @@
-### Thie Readme is still a work in progress
+### Thie Readme is still a work in progress...
 
 **AGS** (Aylur's GTK Shell):
 > https://aylur.github.io/ags/
