@@ -1,31 +1,33 @@
 $pine: #3e8fb0;
 $foam: #9ccfd8;
+$font: "Cantarell, Regular";
+$borderRadius: 8px;
+$border: 1px solid rgba(255, 255, 255, 0.243);
 
 window.Bar {
   background: transparent;
   font-weight: bold;
+  font-family: $font;
 
   > centerbox {
     background: rgba(255, 255, 255, 0.234);
-    border-radius: 8px;
+    border-radius: $borderRadius;
     margin: 16px 16px 0px 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.243);
+    border: $border;
   }
 
   button {
-    border-radius: 8px;
     margin: 2px;
+    background: rgba(255, 255, 255, 0.206);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: $border;
+    border-radius: $borderRadius;
   }
 
   .Workspaces {
-    button {
-      background: rgba(255, 255, 255, 0.278);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.243);
-    }
     .focused {
-      color: white;
+      color: $pine
     }
   }
 
@@ -41,12 +43,12 @@ window.Bar {
     }
     trough {
       background-color: $pine;
-      border-radius: 8px;
+      border-radius: $borderRadius;
     }
     highlight {
       background-color: $foam;
       min-height: 0.8em;
-      border-radius: 8px;
+      border-radius: $borderRadius;
     }
   }
 }
