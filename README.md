@@ -7,4 +7,4 @@
 > https://aylur.github.io/astal/
 
 **Current Look and Feel:**
-> ![image](https://github.com/user-attachments/assets/38a01546-6b99-4532-a332-d169ea88e311)
+> ![screenShot250308_20-18-33](https://github.com/user-attachments/assets/297c68e3-4a0c-4e17-8948-c1269e3fc5b8)
