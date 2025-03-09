@@ -5,8 +5,10 @@ import { Gtk } from "astal/gtk3";
 const DateTime = (): Gtk.Widget => {
     const time = Variable<string>("").poll(1000, () =>
         GLib.DateTime.new_now_local().format("%H:%M")!);
+    const date = Variable<string>("").poll(1000, () =>
+        GLib.DateTime.new_now_local().format("%A %B %d, %Y")!);
     return (
-        <label
+        <label tooltipText={date()}
             label={time()}
         />
     )
