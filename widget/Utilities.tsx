@@ -1,5 +1,5 @@
 import { exec, GLib } from "astal";
-import { Gtk } from "astal/gtk3";
+import { Gtk } from "astal/gtk4";
 
 
 const Utilities = (): Gtk.Widget => {

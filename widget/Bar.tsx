@@ -1,4 +1,4 @@
-import { App, Astal, Gtk, Gdk } from "astal/gtk3"
+import { App, Astal, Gtk, Gdk } from "astal/gtk4"
 import Workspaces from "./HyprWorkspaces"
 import AudioSlider from "./AudioSlider"
 import DateTime from "./DateTime"
