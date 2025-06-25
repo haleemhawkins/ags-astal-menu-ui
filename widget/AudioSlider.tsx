@@ -1,5 +1,5 @@
 import { bind } from "astal";
-import { Gtk } from "astal/gtk3";
+import { Gtk } from "astal/gtk4";
 import Wp from "gi://AstalWp"
 
 const AudioSlider = (): Gtk.Widget => {
