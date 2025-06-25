@@ -1,5 +1,5 @@
 import { bind } from "astal";
-import { Gtk } from "astal/gtk4";
+import { Gtk } from "astal/gtk3";
 import Hyprland from "gi://AstalHyprland";
 
 const Workspaces = (): Gtk.Widget => {

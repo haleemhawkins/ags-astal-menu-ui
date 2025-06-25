@@ -1,5 +1,5 @@
 import { GLib, Variable } from "astal";
-import { Gtk } from "astal/gtk4";
+import { Gtk } from "astal/gtk3";
 
 
 const DateTime = (): Gtk.Widget => {
